@@ -1,0 +1,108 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 15px;
+  background-color: #134e4a;
+  color: #f8fafc;
+  border-radius: 10px;
+}
+.navbar a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f8fafc;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+.nav-btn {
+  padding: 15px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: #0f766e;
+  color: #f8fafc;
+}
+.hero {
+  /* display: flex; */
+  padding: 60px;
+  background: linear-gradient(to bottom, #99f6e4, #2dd4bf);
+}
+.color-change {
+  color: #f97316;
+}
+.hero-btn1 {
+  color: #f8fafc;
+  background-color: #134e4a;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.hero-btn2 {
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid;
+}
+.hero-btn1:hover {
+  background-color: transparent;
+  border: 1px solid;
+  color: #020617;
+}
+.hero-btn2:hover {
+  background-color: #134e4a;
+  color: #f8fafc;
+}
+.problems {
+  padding: 60px;
+  text-align: center;
+  color: #0e6860;
+}
+.tag {
+  background: #fff0da;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #f26e25;
+}
+.problem-card {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: #020617;
+}
+.card {
+  background-color: #99f6e4;
+  border-style: solid;
+  border-color: #5eead4;
+  padding: 25px;
+  width: 280px;
+  border-radius: 10px;
+  text-align: left;
+}
+.process {
+  padding: 60px;
+  margin-top: 40px;
+  text-align: center;
+  color: #0e6860;
+}
+.process p {
+  color: #020617;
+}
+.process-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #020617;
+}
+.step {
+  width: 280px;
+  text-align: center;
+}
+.step h3 {
+  color: #042f2e;
+}
